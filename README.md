@@ -15,3 +15,15 @@ link
 Additional features include:
   * Opening URL from custom wordlist which has bug bounty writeups.
   * Fetching and Updating the newly disclosed Hackerone publicly disclosed reports.
+
+
+### Known Issues
+  * The ability of not able to distinguish between completely publicly disclosed reports and reports with limited disclosures.
+  * The tool may break in the way of how it works if it gets run after a long time. The default range specified is scraping 10 pages to reduce load on the site. If you believe you are running it after a long time, consider increasing the range upto 50 in *main for loop in refresh.py* before running. This will enable collecting all the reports till the recent report extracted in the final.txt .
+  
+ ### Thanks
+  * h1.nobbd(dot)de
+  * bugreader(dot)com
+  * Awesome-Bugbounty-Writeups Repo
+  * and other helpful sources.. :) 
+  
