@@ -10,7 +10,9 @@
 
 *This is a productivity tool for security enthusiasts and bug bounty hunters. I have written a blog here giving my idea of how to use this efficiently.*
 
-link
+[Launching Open Sesame! ](https://link.medium.com/jePsJr2Tr6)
+
+---
 ![alt text](https://github.com/humblelad/open-sesame/blob/master/images/front.jpg) 
 
 Additional features include:
