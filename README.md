@@ -11,10 +11,30 @@
 *This is a productivity tool for security enthusiasts and bug bounty hunters. I have written a blog here giving my idea of how to use this efficiently.*
 
 link
+![alt text](https://github.com/humblelad/open-sesame/blob/master/images/front.jpg) 
 
 Additional features include:
   * Opening URL from custom wordlist which has bug bounty writeups.
   * Fetching and Updating the newly disclosed Hackerone publicly disclosed reports.
+
+## Usage:
+Pl install components in rquirements.txt
+
+
+
+
+`python3 default.py` Opens a random magic URL from the collection of publicly disclosed h1 reports.
+
+![alt text](https://github.com/humblelad/open-sesame/blob/master/images/default.jpg) 
+
+`python3 default.py --custom` Opens a random magic URL from the collection of custom wordlist having bug bounty writeups.
+
+![alt text](https://github.com/humblelad/open-sesame/blob/master/images/custom.jpg) 
+
+
+`python3 default.py --refresh` Refreshes and adds newly publicly disclosed h1 reports to your file(final.txt)
+
+![alt text](https://github.com/humblelad/open-sesame/blob/master/images/refresh.jpg) 
 
 
 ### Known Issues
