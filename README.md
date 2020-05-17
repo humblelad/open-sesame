@@ -1,5 +1,7 @@
 # open-sesame
 
+### Contains hackerone disclosed reports and other bug bounty writeups.
+
 
   ![alt text](https://github.com/humblelad/open-sesame/blob/master/images/osesame.png) 
 
