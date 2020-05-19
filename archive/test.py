@@ -26,3 +26,5 @@ with open("copy.txt", "w") as outfile:
     outfile.write("\n".join(convert))
 
     # This is the default code used to scrape allt the publlicly disclosed reports.
+    # regex i used to filter only https:// from awesome bug bounty writeups by asemodus (something lol) repo:
+    # [-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)
